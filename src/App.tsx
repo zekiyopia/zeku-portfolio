@@ -9,7 +9,7 @@ import Contact from './pages/Contact';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/zeku-portfolio"> {/* Set the base path for routing */}
       <div className="min-h-screen bg-black flex flex-col">
         <Navbar />
         <main className="flex-grow">
